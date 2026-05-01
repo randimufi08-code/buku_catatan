@@ -1,4 +1,4 @@
-# 📔 Buku Catatan Pro
+# 📔 Buku Catatan 
 > **Catat ide jadi lebih gampang, kelola tugas jadi lebih ringan.**
 
 Aplikasi ini dibuat buat kamu yang suka lupa naruh ide atau sering kelabakan nyari daftar tugas. Tampilannya bersih, simpel, dan nggak bikin pusing.
