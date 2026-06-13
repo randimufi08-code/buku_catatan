@@ -3,11 +3,17 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+<<<<<<< HEAD
   printing
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST
   jni
+=======
+)
+
+list(APPEND FLUTTER_FFI_PLUGIN_LIST
+>>>>>>> 6784de4b597280a98fd1a5c7e1ddf4b4837f8d20
 )
 
 set(PLUGIN_BUNDLED_LIBRARIES)

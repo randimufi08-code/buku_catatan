@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // This is a basic Flutter widget test.
 //
 // To perform an interaction with a widget in your test, use the WidgetTester
@@ -28,3 +29,17 @@ void main() {
     expect(find.text('1'), findsOneWidget);
   });
 }
+=======
+import 'package:flutter_test/flutter_test.dart';
+import 'package:buku_catatan/main.dart'; // Pastikan nama package sesuai
+
+void main() {
+  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+    // Bangun aplikasi kita dan pemicu frame.
+    await tester.pumpWidget(const BukuCatatanApp()); // Gunakan nama kelas yang baru
+
+    // Verifikasi bahwa tampilan awal sudah benar
+    expect(find.text('Catatan'), findsOneWidget);
+  });
+}
+>>>>>>> 6784de4b597280a98fd1a5c7e1ddf4b4837f8d20
